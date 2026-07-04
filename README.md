@@ -13,7 +13,7 @@ It also conducts a knowledge distillation experiment inspired by DeiT, *"Trainin
 * Trainable Positional Embedding
 * Vision Transformer Model
 
-### Data-efficient Image Transformer
+### Data-Efficient Image Transformer
 
 * DIST Token
 * DeiT-style Student Model
