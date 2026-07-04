@@ -37,7 +37,7 @@ This supports the observation that ViT has weaker visual inductive bias than CNN
 
 ### Experiment 2: Knowledge Distillation
 
-DeiT achieved marginally better performance than vanilla ViT by using a ResNet teacher and an additional distillation token.
+DeiT achieved better performance than vanilla ViT by using a ResNet teacher and an additional distillation token.
 
 | Model | Test Accuracy |
 | ----- | ------------: |
