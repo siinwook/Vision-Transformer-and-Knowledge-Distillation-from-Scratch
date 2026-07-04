@@ -6,14 +6,14 @@ It also conducts a knowledge distillation experiment inspired by DeiT, *"Trainin
 
 ## What I implemented
 
-### Vision Transformer Architecture
+### Vision Transformer
 
 * Patch Embedding
 * CLS Token
 * Trainable Positional Embedding
 * Vision Transformer Model
 
-### Data-efficient Image Transformer Architecture
+### Data-efficient Image Transformer
 
 * DIST Token
 * DeiT-style Student Model
