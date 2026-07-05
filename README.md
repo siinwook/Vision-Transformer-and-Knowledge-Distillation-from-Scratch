@@ -17,7 +17,7 @@ It also conducts a knowledge distillation experiment inspired by DeiT, *"Trainin
 
 * DIST Token
 * DeiT-style Student Model
-* Hard-label Distillation
+* Hard-label Distillation Training Pipeline
 * Late Fusion Inference Pipeline
 
 ### Experiments
