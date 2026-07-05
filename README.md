@@ -33,7 +33,7 @@ ViT achieved lower absolute training accuracy than ResNet, but showed a larger g
 
 This supports the observation that ViT has weaker visual inductive bias than CNNs and benefits more from increased data availability.
 
-![vit_resnet_train_acc](./results/vit_res_train_acc.png)
+![vit_resnet_train_acc_gap](./results/vit_res_train_acc_gap.png)
 
 ### Experiment 2: Knowledge Distillation
 
