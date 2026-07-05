@@ -44,24 +44,6 @@ Training conditions of experiments are indicated below
 
 ---
 
-## 3. Degradation Problem: 20-layer vs 56-layer Networks
-
-![layer20_vs_layer56_error_rate](./layer20_layer56_error_rate.png)
-
-### Observation
-
-- Plain network gains seriously lower accuracy when layer gets deeper(20 -> 56 depth).
-- Residual network even gains slightly more accuracy when layer gets deeper(20 -> 56 depth).
-- Considering shallower depth(20-depth), ResNet20 converges faster than PlainNet20 and gains more accuracy(by 2.0%).
-- Considering deeper depth(56-depth), ResNet56 converges much faster than PlainNet56 and gains a far more accuracy(by 16.0%).  
-
-### Interpretation
-
-- Plain network suffers from *the degradation problem*(accuracy satured at some specific depth and decrease seriously), this phenomena occurs due to neither overfitting(no train/test accuracy gap) nor vanishing gradients(addressed by BN)
-- Residual network addresses *the degradation problem* and make optimization easier.
-
----
-
 **Training conditions**
 
 | Conditions | Experiment 1 | Experiment 2 |
