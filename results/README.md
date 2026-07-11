@@ -18,13 +18,13 @@ Training conditions of experiments are indicated below
 
 ### Observation
 
-- ResNet44 and PlainNet44 have almost similar parameter counts.
-- ResNet44 has 0.661M trainable parameters
-- PlainNet44 has 0.658M trainable parameters
+- ResNet gains more absolute train accuracy and converges faster in any data sizes, ResNet trained with smallest data size wins ViT trained with biggest data size.
+- As the data size increases, ViT shows much train accuracy growth rate(0.208%p+ vs 0.112%p+). 
 
 ### Interpretation
 
-- ResNet44 requires marginally more parameters due to shortcut operations(Option B according to this paper), but the difference is negligible.
+- Although the number of trainable parameters is similiar(ResNet: 1.14MB vs ViT: 1.19MB), ViT trained with biggest data size is inferior to ResNet with smallest data size due to the lack of inductive bias.
+- As ViT gains more train accuracy growth rate when data size increases, ViT needs more data to learn inductive bias than CNNs.
 
 ---
 
@@ -49,6 +49,7 @@ Training conditions of experiments are indicated below
 | Conditions | Experiment 1 | Experiment 2 |
 |---|---|---|
 | Dataset | CIFAR-10 (10K, 25K, 50K) | CIFAR-10 (50K) |
+| Model | ResNet74, ViT | ResNet74, ViT, DeiT |
 | Optimizer | Adam | AdamW |
 | Learning rate scheduler | Constant + Drop | Linear warmup + Cosine annealing |
 | Learning rate | 0.001(1-10 epoch) + 0.0001(11-50 epoch) | 0.0005 to 0.00001(6-40 epoch) |
