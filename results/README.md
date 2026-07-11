@@ -24,7 +24,7 @@ Training conditions of experiments are indicated below
 ### Interpretation
 
 - Although the number of trainable parameters is similiar(ResNet: 1.14MB vs ViT: 1.19MB), ViT trained with biggest data size is inferior to ResNet with smallest data size due to the lack of inductive bias.
-- As ViT gains more train accuracy growth rate when data size increases, ViT needs more data to learn inductive bias than CNNs.
+- As ViT gains more train accuracy growth rate when data size increases, ViT requires more data to learn visual priors that CNNs already encode through inductive biases.
 
 ---
 
