@@ -41,8 +41,9 @@ DeiT achieved better performance than vanilla ViT by using a ResNet teacher and 
 
 | Model | Test Accuracy |
 | ----- | ------------: |
-| ViT   |        80.13% |
 | DeiT  |        80.34% |
+| ViT   |        80.13% |
+
 
 Accuracy gain:
 
