@@ -41,8 +41,8 @@ Training conditions of experiments are indicated below
 
 ### Observation
 
-- Models gain higher test accuracy in order of Teacher(ResNet), DeiT, and ViT.
-- DeiT distilled by ConvNet teacher gains slightly more test accuracy. 
+- Models gain higher test accuracy in order of Teacher(ResNet), DeiT, DeiT with DIST, DeiT with CLS, and ViT.
+- DeiT distilled by ConvNet teacher gains slightly more test accuracy than vanila ViT. 
 
 ### Interpretation
 
